@@ -1,0 +1,16 @@
+# LISA-style Satellite Multi-Task Omni Model
+# ===========================================
+# IMPORTANT: Qwen3.5 (Qwen3_5ForConditionalGeneration) requires transformers >= 4.57.0
+# If your `pip install transformers` gives an older version, install from git:
+#   pip install "transformers @ git+https://github.com/huggingface/transformers.git"
+
+transformers>=4.57.0
+torch>=2.1.0
+torchvision>=0.16.0
+peft>=0.12.0
+datasets>=2.19.0
+accelerate>=0.30.0
+trackio
+Pillow>=10.0.0
+numpy>=1.24.0
+huggingface_hub>=0.23.0

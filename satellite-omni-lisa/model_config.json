@@ -1,0 +1,13 @@
+{
+  "vlm_model_id": "Qwen/Qwen3.5-0.8B",
+  "sam_model_id": "Zigeng/SlimSAM-uniform-77",
+  "seg_token": "<SEG>",
+  "seg_token_id": 248077,
+  "vlm_hidden_size": 1024,
+  "sam_prompt_dim": 256,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "architecture": "LISA (Qwen3.5-VL-0.8B + SlimSAM-77)",
+  "training_step": 400,
+  "training_epoch": 0.2038
+}
